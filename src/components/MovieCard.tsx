@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { config } from "../config/config";
+import { config } from "../config/config.ts";
 
 export default function MovieCard({ movie }: any) {
   return (

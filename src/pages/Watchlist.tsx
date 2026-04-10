@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { WatchlistContext } from "../context/WatchlistContext";
-import MovieGrid from "../components/MovieGrid";
+import { WatchlistContext } from "../context/WatchlistContext.tsx";
+import MovieGrid from "../components/MovieGrid.tsx";
 
 export default function Watchlist() {
   const { watchlist } = useContext(WatchlistContext);

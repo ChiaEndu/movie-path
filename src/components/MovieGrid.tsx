@@ -1,4 +1,4 @@
-import MovieCard from "./MovieCard";
+import MovieCard from "./MovieCard.tsx";
 
 export default function MovieGrid({ movies }: any) {
   return (
